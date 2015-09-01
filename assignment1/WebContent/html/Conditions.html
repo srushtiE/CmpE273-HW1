@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="ISO-8859-1">
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../js/conditions.js"></script>
+<title>Page for Conditions</title>
+</head>
+<body>
+<form method="post" onsubmit="return calc()">
+
+		<p>Question 1: Select your gender:<br/><p>
+		<input type="radio" name="btn_gender" id="btn_male" value="Male"/>
+		Male<br/><br/>
+		<input type="radio" name="btn_gender" id="btn_female" value="Female"/>
+		Female<br/><br/>
+		
+		<p>Question 2: Select age:<br/><p>
+		<div id="age_div">
+			<select id="dd_age" class="20-100">
+			<option value="--select age--">--select age--</option></select>
+		</div>
+		<br/>
+		
+		<div>
+			<p>Question 3: Enter your weight:<br/></p>
+			<input type="text" name="txt_wt_kg" id="txt_wt_kg" value="0"/>kg OR
+			<input type="text" name="txt_wt_pound" id="txt_wt_pound" value="0"/>lb
+		</div>
+		<br/>
+		
+		<div>
+			<p>Question 4: Enter your height:<br/></p>
+			<input type="text" name="txt_ht_m" id="txt_ht_m" value="0"/>m OR
+			<input type="text" name="txt_ht_in" id="txt_ht_in" value="0"/>in
+		</div>
+		<br/>
+		<input id="btn_sbt" type="submit" value="Submit">
+</form>
+</body>
+</body>
+</html>
