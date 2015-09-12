@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JSON</title>
+<script type="text/javascript" src="../js/json.js"></script>
+</head>
+<body>
+<div id="div1">
+	<table>
+		<tbody>
+			<tr>
+				<td>State</td>
+				<td>Capital</td>
+			</tr>
+			<tr>
+				<td><input type="text" id="state1"/></td>
+				<td><input type="text" id="capital1"/></td>
+			</tr>
+			<tr>
+				<td><input type="text" id="state2"/></td>
+				<td><input type="text" id="capital2"/></td>
+			</tr>
+			<tr>
+				<td><input type="text" id="state3"/></td>
+				<td><input type="text" id="capital3"/></td>
+			</tr>
+			<tr>
+				<td><input type="text" id="state4"/></td>
+				<td><input type="text" id="capital4"/></td>
+			</tr>
+			<tr>
+				<td><input type="text" id="state5"/></td>
+				<td><input type="text" id="capital5"/></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<br/>
+<input type="button" id="btn1" value="Submit" onclick="downloadJSON()"/>
+<form method="get" id="form1">
+	<a href="" id="link" download="stateJSON.txt">Download above as JSON</a>	
+</form>
+</html>
